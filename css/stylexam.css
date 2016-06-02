@@ -38,7 +38,14 @@ transition: all .5s ease-out;
 	color: black;
 }
 
+.color2{
+	background: red;
+	margin-bottom: 7rem;
+}
 
+.color3{
+	background: skyblue;
+}
 
 .headg{
     display: inline-block;
@@ -187,7 +194,7 @@ margin-right: 2%
 }
 
 .img1sect {
-	position: absolute;
+	position: relative;
     padding-left: 13%;
     padding-right: 0%;
     height: 7em;
@@ -196,7 +203,7 @@ margin-right: 2%
 }
 
 .img2sect {
-    position: absolute;
+    position: relative;
     padding-left: 29%;
     padding-right: 0%;
     height: 7em;
@@ -205,7 +212,7 @@ margin-right: 2%
 }
 
 .img3sect {
-	position: absolute;
+	position: relative;
     padding-left: 45%;
     padding-right: 0%;
     height: 7em;
@@ -213,7 +220,7 @@ margin-right: 2%
 }
 
 .img4sect {
-	position: absolute;
+	position: relative;
     padding-left: 61%;
     padding-right: 0%;
     height: 7em;
@@ -221,11 +228,55 @@ margin-right: 2%
 }
 
 .img5sect {
-	position: absolute;
+	position: relative;
     padding-left: 77%;
     padding-right: 0%;
     height: 7em;
     width: 80%;
+}
+
+.div6 {
+	margin-bottom: 15rem;
+}
+
+.div7{
+	position: relative;
+	width: 40rem;
+	margin-bottom: 6rem;
+	height: 34em;
+	font-size: 70%;
+}
+
+.sondiv7{
+position: absolute;
+background: white;
+margin-left: 40%;
+margin-bottom: 10%;
+height: 79%;
+width: 57%;
+}
+
+.div8{
+	position: relative;
+	width: 40rem;
+	margin-bottom:6rem;
+	right: 0;
+	height: 24em;
+	margin-left: 40rem;
+	margin-top: -37%;
+}
+
+.sondiv8{
+    position: absolute;
+    background: white;
+    margin-left: 8%;
+    margin-bottom: 10%;
+    height: 96%;
+    width: 79%;
+}
+
+.endfooter{
+	
 }
 
 @media (max-width:300px) and (min-width:600px) {
